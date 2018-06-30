@@ -12,12 +12,12 @@ public class AddMenuItemForm {
 
     @NotNull
     private int cheeseId;
-
-    private Iterable<Cheese> cheeses;
-
     private Menu menu;
 
     public AddMenuItemForm(){}
+
+
+    private Iterable<Cheese> cheeses;
 
     public AddMenuItemForm(Iterable<Cheese> cheeses, Menu menu){
         this.menu = menu;
